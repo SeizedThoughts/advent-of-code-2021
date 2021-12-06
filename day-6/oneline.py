@@ -1,0 +1,1 @@
+meta = [[i for i in open('day-6/input.txt', 'r').read().split(',')].count(str(i)) for i in range(9)]; print(sum([(meta.append(meta.pop(0)), meta.insert(6, meta[6] + meta[-1]), meta.pop(7), meta) for i in range(256)][-1][-1]))

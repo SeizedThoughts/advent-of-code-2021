@@ -1,0 +1,1 @@
+print(min([sum([int((abs(i - j) + 1) * abs(i - j) / 2) for j in [int(i) for i in open('day-7/input.txt', 'r').read().split(',')]]) for i in range(max([int(i) for i in open('day-7/input.txt', 'r').read().split(',')]))]))
